@@ -1,0 +1,62 @@
+{
+  "public.customer": [
+    {
+      "customer_id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890"
+    },
+    {
+      "customer_id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "0987654321"
+    }
+  ],
+  "public.menuitems": [
+    {
+      "menu_item_id": 1,
+      "item_name": "Espresso",
+      "price": "2.50",
+      "description": "Rich and bold espresso shot."
+    },
+    {
+      "menu_item_id": 2,
+      "item_name": "Cappuccino",
+      "price": "3.50",
+      "description": "Creamy cappuccino with frothy milk."
+    }
+  ],
+  "public.orderitems": [
+    {
+      "order_item_id": 1,
+      "order_id": 1,
+      "menu_item_id": 1,
+      "quantity": 2
+    },
+    {
+      "order_item_id": 2,
+      "order_id": 1,
+      "menu_item_id": 2,
+      "quantity": 1
+    },
+    {
+      "order_item_id": 3,
+      "order_id": 2,
+      "menu_item_id": 1,
+      "quantity": 1
+    }
+  ],
+  "public.orders": [
+    {
+      "order_id": 1,
+      "customer_id": 1,
+      "order_date": "2025-08-24T20:26:03.908Z"
+    },
+    {
+      "order_id": 2,
+      "customer_id": 2,
+      "order_date": "2025-08-24T20:26:03.908Z"
+    }
+  ]
+}
