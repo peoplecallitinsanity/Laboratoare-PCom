@@ -1,0 +1,48 @@
+{
+  "public.courses": [
+    {
+      "course_id": 1,
+      "course_name": "Data Analysis 101",
+      "description": "Learn the basics of data analysis.",
+      "duration": "4 weeks",
+      "format": "Online",
+      "rating": "4.50"
+    },
+    {
+      "course_id": 2,
+      "course_name": "Effective Communication",
+      "description": "Enhance your communication skills.",
+      "duration": "2 weeks",
+      "format": "In-person",
+      "rating": "4.70"
+    }
+  ],
+  "public.user_courses": [
+    {
+      "user_id": 1,
+      "course_id": 1
+    },
+    {
+      "user_id": 1,
+      "course_id": 2
+    },
+    {
+      "user_id": 2,
+      "course_id": 1
+    }
+  ],
+  "public.users": [
+    {
+      "user_id": 1,
+      "username": "john_doe",
+      "password": "password123",
+      "role": "Learner"
+    },
+    {
+      "user_id": 2,
+      "username": "jane_smith",
+      "password": "password456",
+      "role": "Instructor"
+    }
+  ]
+}
