@@ -1,0 +1,56 @@
+{
+  "public.courses": [
+    {
+      "course_id": 1,
+      "course_name": "Data Analysis Basics",
+      "description": "Learn the fundamentals of data analysis.",
+      "start_date": "2023-01-01",
+      "end_date": "2023-01-30",
+      "duration": 30,
+      "type_of_learning": "Online",
+      "expertise_level": "Beginner"
+    },
+    {
+      "course_id": 2,
+      "course_name": "Advanced Graphic Design",
+      "description": "Enhance your graphic design skills.",
+      "start_date": "2023-02-01",
+      "end_date": "2023-02-28",
+      "duration": 40,
+      "type_of_learning": "In-person",
+      "expertise_level": "Advanced"
+    }
+  ],
+  "public.enrollments": [
+    {
+      "enrollment_id": 1,
+      "user_id": 1,
+      "course_id": 1,
+      "enrollment_date": "2023-01-01"
+    },
+    {
+      "enrollment_id": 2,
+      "user_id": 2,
+      "course_id": 2,
+      "enrollment_date": "2023-02-01"
+    }
+  ],
+  "public.users": [
+    {
+      "user_id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "hashed_password_1",
+      "profile_picture": "url_to_picture_1",
+      "subscription_status": true
+    },
+    {
+      "user_id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "hashed_password_2",
+      "profile_picture": "url_to_picture_2",
+      "subscription_status": false
+    }
+  ]
+}
