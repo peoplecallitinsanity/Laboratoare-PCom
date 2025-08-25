@@ -1,0 +1,58 @@
+{
+  "public.customers": [
+    {
+      "customer_id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "1234567890"
+    },
+    {
+      "customer_id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "0987654321"
+    }
+  ],
+  "public.events": [
+    {
+      "event_id": 1,
+      "event_name": "Live Music Night",
+      "event_date": "2023-12-01T19:00:00.000Z",
+      "description": "Enjoy live music from local artists."
+    },
+    {
+      "event_id": 2,
+      "event_name": "Coffee Tasting",
+      "event_date": "2023-12-15T15:00:00.000Z",
+      "description": "Join us for a coffee tasting event."
+    }
+  ],
+  "public.menuitems": [
+    {
+      "item_id": 1,
+      "item_name": "Organic Espresso",
+      "price": "3.50",
+      "is_organic": true
+    },
+    {
+      "item_id": 2,
+      "item_name": "Local Croissant",
+      "price": "2.50",
+      "is_organic": false
+    }
+  ],
+  "public.orders": [
+    {
+      "order_id": 1,
+      "customer_id": 1,
+      "order_date": "2025-08-25T08:38:09.411Z",
+      "total_amount": "6.00"
+    },
+    {
+      "order_id": 2,
+      "customer_id": 2,
+      "order_date": "2025-08-25T08:38:09.411Z",
+      "total_amount": "5.00"
+    }
+  ]
+}
