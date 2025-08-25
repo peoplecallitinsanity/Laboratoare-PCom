@@ -1,0 +1,34 @@
+{
+  "public.courses": [
+    {
+      "course_id": 1,
+      "title": "Effective Communication",
+      "description": "A course to enhance communication skills.",
+      "duration": 20,
+      "type": "Online",
+      "expertise_level": "Beginner",
+      "start_date": "2023-10-01",
+      "end_date": "2023-10-21"
+    },
+    {
+      "course_id": 2,
+      "title": "Data Analysis with Python",
+      "description": "Learn data analysis techniques using Python.",
+      "duration": 30,
+      "type": "Online",
+      "expertise_level": "Intermediate",
+      "start_date": "2023-11-01",
+      "end_date": "2023-11-30"
+    },
+    {
+      "course_id": 3,
+      "title": "Leadership Essentials",
+      "description": "Develop essential leadership skills.",
+      "duration": 25,
+      "type": "In-Person",
+      "expertise_level": "Advanced",
+      "start_date": "2023-12-01",
+      "end_date": "2023-12-15"
+    }
+  ]
+}
