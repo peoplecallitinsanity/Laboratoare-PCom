@@ -1,0 +1,54 @@
+{
+  "public.Order": [
+    {
+      "order_id": 1,
+      "customer_id": 1,
+      "order_date": "2025-08-25T08:03:04.945Z",
+      "total_amount": "5.50"
+    },
+    {
+      "order_id": 2,
+      "customer_id": 2,
+      "order_date": "2025-08-25T08:03:04.945Z",
+      "total_amount": "3.00"
+    }
+  ],
+  "public.customer": [
+    {
+      "customer_id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "loyalty_points": 10
+    },
+    {
+      "customer_id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "loyalty_points": 20
+    }
+  ],
+  "public.event": [
+    {
+      "event_id": 1,
+      "event_name": "Open Mic Night",
+      "event_date": "2023-12-01T19:00:00.000Z",
+      "description": "Join us for an evening of local talent!"
+    }
+  ],
+  "public.event_attendance": [],
+  "public.menu_item": [
+    {
+      "item_id": 1,
+      "name": "Espresso",
+      "price": "2.50",
+      "category": "coffee"
+    },
+    {
+      "item_id": 2,
+      "name": "Croissant",
+      "price": "3.00",
+      "category": "pastry"
+    }
+  ],
+  "public.order_menu_item": []
+}
