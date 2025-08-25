@@ -1,0 +1,68 @@
+{
+  "public.customer": [
+    {
+      "customer_id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "loyalty_points": 10
+    },
+    {
+      "customer_id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "loyalty_points": 20
+    }
+  ],
+  "public.menuitems": [
+    {
+      "menu_item_id": 1,
+      "name": "Espresso",
+      "price": "2.50",
+      "category": "Coffee"
+    },
+    {
+      "menu_item_id": 2,
+      "name": "Cappuccino",
+      "price": "3.00",
+      "category": "Coffee"
+    },
+    {
+      "menu_item_id": 3,
+      "name": "Blueberry Muffin",
+      "price": "2.00",
+      "category": "Pastry"
+    }
+  ],
+  "public.orderitems": [
+    {
+      "order_item_id": 1,
+      "order_id": 1,
+      "menu_item_id": 1,
+      "quantity": 2
+    },
+    {
+      "order_item_id": 2,
+      "order_id": 1,
+      "menu_item_id": 3,
+      "quantity": 1
+    },
+    {
+      "order_item_id": 3,
+      "order_id": 2,
+      "menu_item_id": 2,
+      "quantity": 1
+    }
+  ],
+  "public.orders": [
+    {
+      "order_id": 1,
+      "customer_id": 1,
+      "order_date": "2025-08-25T08:20:53.729Z"
+    },
+    {
+      "order_id": 2,
+      "customer_id": 2,
+      "order_date": "2025-08-25T08:20:53.729Z"
+    }
+  ]
+}
